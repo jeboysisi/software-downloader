@@ -13,11 +13,9 @@ Software Downloader is a Python-based GUI application built using Tkinter that a
 
 ## Features
 
-- **User-Friendly Interface:** Provides a graphical user interface (GUI) for selecting and downloading multiple software applications.
+- **User Interface:** Provides a graphical user interface (GUI) for selecting and downloading multiple software applications.
 - **Categorized Display:** Software items are organized into categories for easy selection.
-- **Dynamic Layout:** Adjusts the layout based on window width for better viewing.
 - **Download Functionality:** Downloads selected software using 'winget' package manager.
-- **Maximized Window:** Starts the application in a maximized window for better visibility.
 
 ## Requirements
 
@@ -34,8 +32,8 @@ Software Downloader is a Python-based GUI application built using Tkinter that a
 2. Install Python (if not already installed) from the official [Python website](https://www.python.org/).
 
 3. Install required packages:
-   ```bash
-   python -m pip install -r requirements.txt
+   - Tkinter (included with python)
+   - Subprocess (included with python)
 
 ## Usage
 
@@ -54,4 +52,4 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the [MIT License](https://sisi.mit-license.org/).
