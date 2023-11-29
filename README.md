@@ -40,7 +40,7 @@ Software Downloader is a Python-based GUI application built using Tkinter that a
 1. Run the application:
 
    ```bash
-   python software_downloader.py
+   python software-downloader\software_downloader.py
 
 2. The Software Downloader GUI will open, displaying various software categories.
 3. Select the desired software checkboxes from different categories.
