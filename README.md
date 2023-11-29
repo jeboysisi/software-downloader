@@ -27,7 +27,7 @@ Software Downloader is a Python-based GUI application built using Tkinter that a
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/jeboysisi/software-downloader.git
+   git clone https://github.com/sSisiTech/software-downloader.git
 
 2. Install Python (if not already installed) from the official [Python website](https://www.python.org/).
 
