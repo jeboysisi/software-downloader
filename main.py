@@ -37,6 +37,9 @@ software_utilities = [
     ("WinRAR", "RARLab.WinRAR"),
     ("7-Zip", "7zip.7zip"),
     ("Adobe Acrobat Reader", "Adobe.Acrobat.Reader.32-bit"),
+    ("PowerToys", "Microsoft.PowerToys"),
+    ("ShareX", "ShareX.ShareX"),
+    ("Wireshark", "WiresharkFoundation.Wireshark")
     # Add more software for Utilities category as needed
 ]
 
@@ -47,6 +50,7 @@ software_gaming = [
 
 software_productivity = [
     ("Microsoft Office", "Microsoft.Office"),
+    ("Paint.NET", "paint.net"),
     # Add more software for Productivity category as needed
 ]
 
