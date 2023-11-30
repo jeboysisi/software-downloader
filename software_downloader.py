@@ -5,10 +5,17 @@ from tkinter import ttk
 
 software_development = [
     ("Visual Studio Code", "Microsoft.VisualStudioCode"),
+    ("Visual Studio Community 2022", "Microsoft.VisualStudio.2022.Community"),
     ("Python", "Python.Python.3.12"),
     ("Notepad++", "Notepad++.Notepad++"),
     ("Git", "Git.Git"),
     ("Node.js", "OpenJS.NodeJS"),
+    ("Sublime Text", "SublimeHQ.SublimeText.4"),
+    ("IntelliJ IDEA", "JetBrains.IntelliJIDEA.Community"),
+    ("Atom", "GitHub.Atom"),
+    ("PyCharm", "JetBrains.PyCharm.Community"),
+    ("Android Studio", "Google.AndroidStudio"),
+    ("Arduino IDE", "ArduinoSA.IDE.stable"),
     # Add more software for Development category as needed
 ]
 
@@ -16,6 +23,9 @@ software_browsers = [
     ("Google Chrome", "Google.Chrome"),
     ("Mozilla Firefox", "Mozilla.Firefox"),
     ("Microsoft Edge", "Microsoft.Edge"),
+    ("Opera", "Opera.Opera"),
+    ("Opera GX", "Opera.OperaGX"),
+    ("Brave", "Brave.Brave"),
     # Add more software for Browsers category as needed
 ]
 
@@ -24,12 +34,19 @@ software_communication = [
     ("Discord", "Discord.Discord"),
     ("Microsoft Teams", "Microsoft.Teams"),
     ("Skype", "Microsoft.Skype"),
+    ("Slack", "SlackTechnologies.Slack"),
+    ("Telegram", "Telegram.TelegramDesktop"),
+    ("WhatsApp", "WhatsApp.WhatsApp"),
+    ("Signal", "OpenWhisperSystems.Signal"),
     # Add more software for Communication category as needed
 ]
 
 software_multimedia = [
     ("Spotify", "Spotify.Spotify"),
     ("VLC media player", "VideoLAN.VLC"),
+    ("Audacity", "Audacity.Audacity"),
+    ("GIMP", "GIMP.GIMP"),
+    ("OBS Studio", "OBSProject.OBSStudio"),
     # Add more software for Multimedia category as needed
 ]
 
@@ -37,23 +54,38 @@ software_utilities = [
     ("WinRAR", "RARLab.WinRAR"),
     ("7-Zip", "7zip.7zip"),
     ("Adobe Acrobat Reader", "Adobe.Acrobat.Reader.32-bit"),
+    ("PowerToys", "Microsoft.PowerToys"),
+    ("ShareX", "ShareX.ShareX"),
+    ("Wireshark", "WiresharkFoundation.Wireshark"),
+    ("CCleaner", "Piriform.CCleaner"),
+    ("Malwarebytes", "Malwarebytes.Malwarebytes"),
+    ("TeamViewer", "TeamViewer.TeamViewer"),
     # Add more software for Utilities category as needed
 ]
 
 software_gaming = [
     ("Steam", "Valve.Steam"),
+    ("Epic Games Launcher", "EpicGames.EpicGamesLauncher"),
+    ("EA App", "ElectronicArts.EADesktop"),
+    ("Ubisoft Connect", "Ubisoft.Connect"),
     # Add more software for Gaming category as needed
 ]
 
 software_productivity = [
     ("Microsoft Office", "Microsoft.Office"),
+    ("Paint.NET", "paint.net"),
+    ("LibreOffice", "TheDocumentFoundation.LibreOffice"),
+    ("Notion", "Notion.Notion"),
     # Add more software for Productivity category as needed
 ]
 
 software_storage = [
     ("Dropbox", "Dropbox.Dropbox"),
+    ("Google Drive", "Google.GoogleDrive"),
+    ("OneDrive", "Microsoft.OneDrive"),
     # Add more software for Storage category as needed
 ]
+
 
 # Function to handle software download
 def download_selected_software():
@@ -123,7 +155,7 @@ if num_columns < 1:
     num_columns = 1  # Ensure at least one column
 
 for category, software_list in categories.items():
-    if not current_column or len(current_column.winfo_children()) >= 40:  # Number of items per column
+    if not current_column or len(current_column.winfo_children()) >= 30:  # Number of items per column
         create_new_column()
 
     title_frame = tk.Frame(current_column)
