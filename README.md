@@ -1,4 +1,4 @@
-# Software Downloader
+# Software Downloader <a href="https://www.buymeacoffee.com/sisidev" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 30px !important;width: 109px !important;" ></a>
 
 Software Downloader is a Python-based GUI application built using Tkinter that allows users to select and download various popular software using the 'winget' package manager.
 
@@ -34,6 +34,10 @@ Software Downloader is a Python-based GUI application built using Tkinter that a
 3. Install required packages:
    - Tkinter (included with python)
    - Subprocess (included with python)
+
+- To automatically run the program after installation use:
+  ```bash
+  git clone https://github.com/sSisiTech/software-downloader.git && python software-downloader\software_downloader.py
 
 ## Usage
 
